@@ -1,0 +1,25 @@
+{
+  "name": "refund-by-location",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Haylemicheal/Refund-by-Location.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Haylemicheal/Refund-by-Location/issues"
+  },
+  "homepage": "https://github.com/Haylemicheal/Refund-by-Location#readme",
+  "devDependencies": {
+    "hardhat": "^2.12.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
