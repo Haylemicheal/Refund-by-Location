@@ -39,6 +39,10 @@ contract refundByLocation {
         }
     }
 
+    function getEmployee() public view returns(address[] memory){
+        return employees;
+    }
+
     function sqrt(int256 x) public pure returns (int256 y) {
         int256 z = (x + 1) / 2;
         y = x;
