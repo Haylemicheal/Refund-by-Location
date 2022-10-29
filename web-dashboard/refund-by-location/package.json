@@ -9,12 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@alch/alchemy-web3": "^1.4.7",
+    "@hookform/resolvers": "^2.9.10",
+    "dotenv": "^16.0.3",
     "next": "13.0.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.38.0",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.1",
     "eslint": "8.26.0",
-    "eslint-config-next": "13.0.0"
+    "eslint-config-next": "13.0.0",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.12.1"
   }
 }
